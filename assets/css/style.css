@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,600,700,800,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family:'Courier New', Courier, monospace;
+  color:rgb(254, 11, 11)
+}
+.a{
+  color:red;
+   
+}
+.h4{
+  color:#fe430a;
+}
+.li{
+  color:red;
+}
+body{
+  height: 100vh;
+  background-image: radial-gradient( circle farthest-corner at -3.1% -4.3%, rgb(255, 97, 57) 0%, rgb(82, 21, 24) 90% );
+}
+.wrapper {
+  height: 100vh;
+}
+.myColor {
+  background-image: linear-gradient(to right, #f80000 50%, #b6b4ae 150%);
+}
+.myShadow {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.myBtn {
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  background-image: linear-gradient(to right, #fe430a 0%, #ff4949 100%);
+  border: none;
+}
+.myBtn:hover {
+  background-image: linear-gradient(to right, #ff4949 0%, #fe3b0a 100%);
+}
+.myHr {
+    height: 2px;
+    border-radius: 100px;
+  }
+  .myLinkBtn {
+    border-radius: 100px;
+    width: 50%;
+    border: 2px solid #fff;
+  }
+  @media (max-width: 720px) {
+    .wrapper {
+      margin: 10px;
+    }
+  }
